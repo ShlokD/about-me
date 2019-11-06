@@ -11,7 +11,7 @@
   "author": "Shlok Desai",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.3",
+    "browser-sync": "^2.26.7",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-cssnano": "^2.1.3",
