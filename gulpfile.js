@@ -3,8 +3,6 @@ const sass = require('gulp-sass');
 const cssnext = require('gulp-cssnext');
 const autoprefixer = require('gulp-autoprefixer');
 const cssnano = require('gulp-cssnano');
-const browserSync = require('browser-sync');
-const reload = browserSync.reload;
 
 gulp.task('default', () => {
   return gulp.src('scss/*.scss')
