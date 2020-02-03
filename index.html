@@ -12,197 +12,184 @@
   <meta name="keywords" content="HTML5,CSS3,React,JavaScript,Web Development">
   <meta name="author" content="Shlok Desai">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="dist/css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.11.1/tachyons.min.css">
+  <link rel="stylesheet" href="css/app.css">
 </head>
 
-<body>
-  <div class="app">
-    <header>
-      <nav>
-        <ul class="app-nav-list">
-          <li class="app-nav-list-item">
-            <a href="#about">About</a>
-          </li>
-          <li class="app-nav-list-item">
-            <a href="#work">Work</a>
-          </li>
-          <li class="app-nav-list-item">
-            <a href="#projects">Projects</a>
-          </li>
-          <li class="app-nav-list-item">
-            <a href="#other">Other</a>
-          </li>
-          <li class="app-nav-list-item">
-            <a href="#connect">Connect</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+<body class="bg-white h-100 pa3 border-box">
+  <header class="dn db-ns">
+    <nav>
+      <ul class="flex justify-around items-center list pl0">
+        <li>
+          <a class="b f3 bronze pointer" href="#about">About</a>
+        </li>
+        <li>
+          <a class="b f3 bronze pointer" href="#work">Work</a>
+        </li>
+        <li>
+          <a class="b f3 bronze pointer" href="#projects">Projects</a>
+        </li>
+        <li>
+          <a class="b f3 bronze pointer" href="#other">Other</a>
+        </li>
+        <li>
+          <a class="b f3 bronze" href="#connect">Connect</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-    <main>
-      <section id="about">
-        <div class="about-text">
-          <p>Hi i'm</p>
-          <h1>Shlok Desai</h1>
-          <p> A
-            <em>software engineer/architect/developer</em> living in the Bay Area.</p>
-          <p>I'm keenly interested in web applications, software architecture and performance </p>
-          <p>I'm currently working for Walmart.com, crafting performant, feature-rich
-            <em>web applications</em>
-            that millions of people use everyday.
-          </p>
-        </div>
-        <div class="about-image">
-          <img alt="Shlok's Profile Picture" src="dist/assets/profile-optim.jpg"></img>
-        </div>
-      </section>
-      <hr />
+  <main>
+    <section id="about" class="flex flex-column flex-row-ns pa2">
+      <div>
+        <p>Hi i'm</p>
+        <h1>Shlok Desai</h1>
+        <p> A
+          <em class="bronze">software engineer</em> working in the Bay area for over 4 years.</p>
+        <p>I'm keenly interested in building web applications, creating sustainable software architectures and optimizing application performance.</p>
+        <p>I'm currently working for Walmart.com, crafting performant, feature-rich
+          <em class="bronze">web applications</em>
+          that millions of people use everyday.
+        </p>
+        <p>I had also created my own humor website, WhyTheFuzz.com, which garnered thousands of visitors monthly.</p>
+      </div>
+      <img class="mw5 shadow-5" alt="Shlok's Profile Picture" src="dist/assets/profile-optim.jpg"></img>
+    </section>
+    <hr />
 
-      <section id="work">
-        <div class="section-title">
-          <h2>What I Do</h2>
-        </div>
-        <div class="section-description">
+    <section id="work" class="pa2 flex flex-column flex-row-ns justify-around items-center">
+      <h2 class="tc">What I Do</h2>
+      <div class="pa4 flex flex-column">
 
-          <p>I build web apps that look great, work flawlessly and load fast using
-            <em>JavaScript</em>,
-            <em>HTML</em>
-            and
-            <em>CSS</em>. I work with
-            <em>React</em> and
-            <em>Node.js</em> on a day-to-day basis and have dabbled with
-            <em>Vue</em> and
-            <em>Angular</em>.
-            <br /> To learn and grow as an engineer, I experiment with new developments
-            in the web world, like
-            <em>Progressive Web Apps</em>, Data Visualization, Real Time Communication and a host of other technologies and techniques.
-            <br /> I've also programmed with
-            <em>Java</em>, built
-            <em>Android Apps</em>
-            and have worked with languages like Python, PHP, Ruby, C++ and C</p>
-        </div>
-      </section>
-      <hr />
-      <section id="projects">
-        <div class="section-title">
-          <h2>Projects I've Built</h2>
-        </div>
-        <div class="section-description">
-          <ul class="projects-list">
-            <li class="projects-list-item">
-              <a href="https://shlokd.github.io/ambient-noise/" rel="noopener noreferrer" target="_blank">
-                <div>&#127900;</div>
-                <p>Ambient noise generator for rain, ocean, wind, fire and cafe sounds</p>
-              </a>
+        <p>I build web apps that look great, work flawlessly and load fast. I work with
+          <em class="bronze">React</em> and
+          <em class="bronze">Node</em> on a daily basis and have dabbled with
+          <em>Vue</em> and
+          <em>Angular</em>.</p>
+        <p>To learn and grow as an engineer, I experiment with new developments
+          in the web world and apply my learnings in my personal projects.</p>
 
-            </li>
-            <li class="projects-list-item">
-              <a href="https://github.com/ShlokD/vanilla-html-css-js-boilerplate" rel="noopener noreferrer" target="_blank">
-                <div>&#127959;</div>
-                <p>Simple Boilerplate for Vanilla JS, HTML and CSS Projects</p>
-              </a>
-            </li>
-            <li class="projects-list-item">
-              <a href="https://shlokd.github.io/css-filters/" rel="noopener noreferrer" target="_blank">
-                <div>&#128444;</div>
-                <p>Apply CSS Filters to pictures</p>
-              </a>
-            </li>
-            <li class="projects-list-item">
-              <a href="https://shlokd.github.io/game-of-life/" rel="noopener noreferrer" target="_blank">
-                <div>&#9856;</div>
-                <p>Conway's Game of Life in Vanilla JS</p>
-              </a>
-            </li>
-            <li class="projects-list-item">
-              <a href="https://shlokd.github.io/speed-comparison/" rel="noopener noreferrer" target="_blank">
-                <div>
-                  <div>&#9685;</div>
-                  <p>Compare loading times of two webpages</p>
-                </div>
-              </a>
-            </li>
+        <p>I've also programmed with
+          <em class="bronze ">Java</em>, built
+          <em class="bronze">Android Apps</em>
+          and have worked with languages like Python, PHP, Ruby, C++ and C.
 
-            <li class="projects-list-item">
-              <a href="https://shlokd.github.io/calendar-widget/" rel="noopener noreferrer" target="_blank">
-                <div>
-                  <div>&#x1F4C5;</div>
-                  <p>Vanilla JS Calendar Widget</p>
-                </div>
-              </a>
-            </li>
+          I blog about my learnings and create open source projects on the side.</p>
+      </div>
+    </section>
+    <hr />
+    <section id="projects" class="flex flex-column flex-row-ns justify-center items-center">
+      <h2 class="tc">Projects I've Built</h2>
+      <ul class="flex flex-column flex-row-ns justify-center items-center flex-wrap list pl0">
+        <li class="pa2 ma2 shadow-4">
+          <a class="flex flex-column justify-center items-center black no-underline"
+            href="https://shlokd.github.io/ambient-noise/" rel="noopener noreferrer" target="_blank">
+            <div class="f3">&#127900;</div>
+            <p>Ambient noise generator for rain, ocean, wind, fire and cafe sounds</p>
+          </a>
 
-            <li class="projects-list-item">
-              <a href="https://shlokd.github.io/maze-game/" rel="noopener noreferrer" target="_blank">
-                <div>
-                  <div>&#10536;</div>
-                  <p>Invisible Maze Game PWA</p>
-                </div>
-              </a>
-            </li>
+        </li>
+        <li class="pa2 ma2 shadow-4">
+          <a class="flex flex-column justify-center items-center black no-underline"
+            href="https://github.com/ShlokD/vanilla-html-css-js-boilerplate" rel="noopener noreferrer" target="_blank">
+            <div class="f3">&#127959;</div>
+            <p>Simple Boilerplate for Vanilla JS, HTML and CSS Projects</p>
+          </a>
+        </li>
+        <li class="pa2 ma2 shadow-4">
+          <a class="flex flex-column justify-center items-center black no-underline"
+            href="https://shlokd.github.io/css-filters/" rel="noopener noreferrer" target="_blank">
+            <div class="f3">&#128444;</div>
+            <p>Apply CSS Filters to pictures</p>
+          </a>
+        </li>
+        <li class="pa2 ma2 shadow-4">
+          <a class="flex flex-column justify-center items-center black no-underline"
+            href="https://shlokd.github.io/game-of-life/" rel="noopener noreferrer" target="_blank">
+            <div>&#9856;</div>
+            <p>Conway's Game of Life in Vanilla JS</p>
+          </a>
+        </li>
+        <li class="pa2 ma2 shadow-4">
+          <a class="flex flex-column justify-center items-center black no-underline"
+            href="https://shlokd.github.io/speed-comparison/" rel="noopener noreferrer" target="_blank">
+            <div class="f3">&#9685;</div>
+            <p>Compare loading times of two webpages</p>
+          </a>
+        </li>
 
-          </ul>
-        </div>
-      </section>
-      <hr />
+        <li class="pa2 ma2 shadow-4">
+          <a class="flex flex-column justify-center items-center no-underline black"
+            href="https://github.com/ShlokD/tweet-analyzer" rel="noopener noreferrer" target="_blank">
+            <div class="f3">😊</div>
+            <p>Twitter Sentiment Analyzer</p>
+          </a>
+        </li>
 
-      <section id="other">
-        <div class="section-title">
-          <h2>I Don't Just Code All The Time</h2>
-        </div>
-        <div class="section-description">
-          <p>I like to read books on history, philosophy, psychology, behavioural economics, mythology, fantasy... In short, anything I
-            can get my hands on.
-            <br /> I also like to cook, run, paint, write, take pictures, create graphic art, make music, learn new languages (currently taking lessons
-            in Spanish, French and Swahili),visit museums and experience as
-            much as I can in this short roller-coaster ride we call life.</p>
-        </div>
-      </section>
-      <hr />
+        <li class="pa2 ma2 shadow-4">
+          <a class="flex flex-column justify-center items-center no-underline black"
+            href="https://shlokd.github.io/maze-game/" rel="noopener noreferrer" target="_blank">
+            <div class="f3">&#10536;</div>
+            <p>Invisible Maze Game PWA</p>
+          </a>
+        </li>
 
-      <section id="connect">
-        <div class="section-title">
-          <h2>Connect</h2>
-        </div>
-        <div class="section-description">
-          <ul class="contact-list">
-            <li class="contact-list-item">
-              <a href="https://www.linkedin.com/in/shlokpdesai/" target="_blank" rel="noopener noreferrer">
-                <img alt="Shlok's LinkedIn" src="dist/assets/linkedin.png" />
-              </a>
-              <p>Professional Profile</p>
-            </li>
-            <li class="contact-list-item">
-              <a id="github" href="https://github.com/ShlokD" target="_blank" rel="noopener noreferrer">
-                <img alt="Shlok's Github" src="dist/assets/github.png" />
-              </a>
-              <p>Checkout my Github Projects</p>
-            </li>
-            <li class="contact-list-item">
-              <a id="codepen" href="https://codepen.io/shlokd/" target="_blank" rel="noopener noreferrer">
-                <img alt="Shlok's Codepen link" src="dist/assets/codepen.png" />
-              </a>
-              <p>Some of my CSS work</p>
-            </li>
-            <li class="contact-list-item">
-              <a id="medium" href="https://medium.com/@omwri" target="_blank" rel="noopener noreferrer">
-                <img alt="Shlok's medium blog" src="dist/assets/medium.png" />
-              </a>
-              <p>Read my blogs</p>
-            </li>
-            <li class="contact-list-item">
-              <a id="medium" href="https://www.pinterest.com/shlokd91/my-designs/" target="_blank" rel="noopener noreferrer">
-                <img alt="Shlok's graphic design work" src="dist/assets/pinterest.png" />
-              </a>
-              <p>Checkout my Graphic Design & Photography</p>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-  </div>
+      </ul>
+    </section>
+    <hr />
 
+    <section id="other" class="flex flex-column flex-row-ns justify-center items-center pa2">
+      <h2 class="tc">I Don't Just Code All The Time</h2>
+      <div class="flex flex-column ml3">
+        <p>I like to read books on history, philosophy, psychology, behavioural economics, mythology, fantasy... In
+          short, anything I
+          can get my hands on.</p>
 
+        <p>I also like to cook, run, paint, write, take pictures, create graphic art, make music, learn new
+          languages (currently taking lessons
+          in Spanish, French and Swahili),visit museums and experience as
+          much as I can in this short roller-coaster ride we call life.</p>
+      </div>
+    </section>
+    <hr />
+
+    <section id="connect" class="flex pa2 flex-column">
+      <h2 class="tc">Connect</h2>
+      <ul class="flex flex-column flex-row-ns list pl0 items-center justify-center">
+        <li class="mt2">
+          <a class="mr2" href="https://www.linkedin.com/in/shlokpdesai/" target="_blank" rel="noopener noreferrer">
+            <img class="w-33 pl4" alt="Shlok's LinkedIn" src="dist/assets/linkedin.png" />
+          </a>
+          <p>Professional Profile</p>
+        </li>
+        <li class="mt2">
+          <a class="mr2" id="github" href="https://github.com/ShlokD" target="_blank" rel="noopener noreferrer">
+            <img class="w-33 pl4" alt="Shlok's Github" src="dist/assets/github.png" />
+          </a>
+          <p>Github Projects</p>
+        </li>
+        <li class="mt2">
+          <a class="mr2" id="codepen" href="https://codepen.io/shlokd/" target="_blank" rel="noopener noreferrer">
+            <img class="w-33 pl4" alt="Shlok's Codepen link" src="dist/assets/codepen.png" />
+          </a>
+          <p>CSS Experiments</p>
+        </li>
+        <li class="mt2">
+          <a class="mr2" id="medium" href="https://medium.com/@omwri" target="_blank" rel="noopener noreferrer">
+            <img class="w-33 pl4" alt="Shlok's medium blog" src="dist/assets/medium.png" />
+          </a>
+          <p>Blogs & Musings</p>
+        </li>
+        <li class="mt2">
+          <a class="mr2" id="medium" href="https://www.pinterest.com/shlokd91/my-designs/" target="_blank"
+            rel="noopener noreferrer">
+            <img class="w-30 pl4" alt="Shlok's graphic design work" src="dist/assets/pinterest.png" />
+          </a>
+          <p>Design & Photography</p>
+        </li>
+      </ul>
+    </section>
+  </main>
 </body>
 
 </html>
