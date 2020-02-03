@@ -4,18 +4,14 @@
   "description": "My personal page",
   "main": "index.html",
   "scripts": {
-    "watch": "gulp build:watch",
-    "hot": "gulp hot",
-    "build": "gulp"
+    "start": "browser-sync -s"
   },
   "author": "Shlok Desai",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^5.0.0",
-    "gulp-cssnano": "^2.1.3",
-    "gulp-cssnext": "^1.0.1",
-    "gulp-sass": "^4.0.1"
+    "browser-sync": "^2.26.7"
+  },
+  "dependencies": {
+    "tachyons": "^4.11.1"
   }
 }
