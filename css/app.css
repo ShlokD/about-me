@@ -31,6 +31,14 @@
     font-family: "Crimson Text", serif
   }
 
+  p {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  nav ul li a {
+    font-family: "Montserrat", sans-serif;
+  }
+
   .white {
     color: var(--app-white);
   }
