@@ -9,6 +9,6 @@
   "author": "Shlok Desai",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.29.1"
+    "browser-sync": "^3.0.2"
   }
 }
